@@ -42,9 +42,19 @@ y = y + numberYear;
         for (int i = 1; total3 <= 12_000_000; i++){
             total3 = total3 + total3 / 100 * 7;
             if (i % 6 == 0){
-                System.out.println("Месяц " + i + " сумма накоплении составляет" + total3);
+                System.out.println("Месяц " + i + " сумма накоплении составляет " + total3);
             }
         }
 
+        System.out.println("Задание 2.3");
+        int total4 = 15000;
+        int year = 9;
+        int month2 = year * 12;
+        for (int i = 1; i <= month2; i++){
+            total4 = total4 + total4 / 100 * 7;
+            if (i % 6 == 0) {
+                System.out.println("Месяц " + i + " сумма накоплении составляет " + total4);
+            }
+        }
     }
 }
