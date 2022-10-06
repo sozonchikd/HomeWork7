@@ -72,6 +72,10 @@ for (int i = 0;i <= year100; i+=79){
     }
 }
 
+        System.out.println("Задание 3.2");
+for (int i = 1; i<=10;i++){
+    System.out.println("2*" + i +"=" + i * 2 );
+}
 
 
     }
