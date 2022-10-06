@@ -49,12 +49,30 @@ y = y + numberYear;
         System.out.println("Задание 2.3");
         int total4 = 15000;
         int year = 9;
-        int month2 = year * 12;
-        for (int i = 1; i <= month2; i++){
+        for (int i = 1; i <= year * 12; i++){
             total4 = total4 + total4 / 100 * 7;
             if (i % 6 == 0) {
                 System.out.println("Месяц " + i + " сумма накоплении составляет " + total4);
             }
         }
+        System.out.println("Задание 2.4");
+int fridayNumber = 4;
+for (;fridayNumber <=31;fridayNumber+=7){
+    System.out.println("Сегодня пятница " + fridayNumber + "-е число. Необходимо подготовить отчёт." );
+}
+
+        System.out.println("Задание 3.1");
+
+int thisYear = 2022;
+int year200 = thisYear - 200;
+int year100 = thisYear + 100;
+for (int i = 0;i <= year100; i+=79){
+    if (i >= year200){
+        System.out.println(i);
+    }
+}
+
+
+
     }
 }
